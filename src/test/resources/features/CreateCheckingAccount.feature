@@ -12,7 +12,8 @@ Feature: Create a new checking account
       | Antons First Checking | Standard Checking | Individual | 486131225     | 0.0%         | 100000.00 |
     And User should see the following Transaction menu
       | date             | category | description               | amount    | balance   |
-      | 2023-09-07 21:19 | Income   | 845321935 (DPT) - Deposit | 100000.00 | 100000.00 |
+      | 2023-09-07 21:19 | Income   | 845321935 (DPT) - Deposit | 100000.00 | 100000.00 |qw
+
 
 
 
