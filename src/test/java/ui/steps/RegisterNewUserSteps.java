@@ -22,7 +22,7 @@ public class RegisterNewUserSteps {
     WebDriver driver = Driver.getDriver();
     LoginPage loginPage = new LoginPage(driver);
 
-
+//registration page
     @Given("user clicks on Sign Up Here link from the login page")
     public void user_clicks_on_sign_up_here_link_from_the_login_page() {
         driver.get("https://dbank-qa.wedevx.co/bank/login");
